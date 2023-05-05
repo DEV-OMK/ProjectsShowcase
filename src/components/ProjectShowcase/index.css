@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 80vh;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  padding-inline: 5%;
+  background-color: #cbd5e1;
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.select-input {
+  width: 280px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #e6e9ec;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.project-list-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px 4px #e2e8f0;
+}
+
+.project-image {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.name-container {
+  padding: 8px;
+  flex-grow: 1;
+}
+
+.project-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.loader-container,
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.failure-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+.failure-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.failure-caption {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #e2e8f0;
+  background-color: #328af2;
+  padding: 8px;
+  padding-inline: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
